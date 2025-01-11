@@ -101,6 +101,9 @@ nav ul.responsive {
     margin: auto;
     display: block;
 }
+.card p{
+    text-align: center;
+}
 
 .card h2 {
     text-align: center;
