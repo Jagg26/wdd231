@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio page of John Garcia showcasing coursework, certifications, and more.">
+    <meta name="author" content="John Garcia">
+    <title>John Garcia - Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script_course_filter.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jfif" alt="Profile Picture">
+        <h1>John Garcia</h1>
+    </header>
+
+    <nav>
+        <span class="menu-toggle">&#9776;</span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/john-garc%C3%ADa-9a8a09183/">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main >
+        <div class="container">
+            <section class="card">
+                <h2>Course Work</h2>
+                <ul>
+                    <li>Course 1</li>
+                    <li>Course 2</li>
+                    <li>Course 3</li>
+                </ul>
+            </section>
+    
+            <section class="card">
+                <h2>Merida, Venezuela</h2>
+                <img src="images/mountains.jpg" alt="Merida Mountains" class="responsive-img">
+                <p style="text-align: center;">Merida Mountains</p>
+            </section>
+        </div>
+
+        <section class="card">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div>
+                <button data-filter="all">All</button>
+                <button data-filter="CSE">CSE</button>
+                <button data-filter="WDD">WDD</button>
+            </div>
+            <div class="certificates"></div>
+            <p class="total-credits"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> John Garcia - Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
