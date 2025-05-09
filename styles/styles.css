@@ -19,6 +19,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 header img {
@@ -80,10 +81,10 @@ nav ul.responsive {
 
 .container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: stretch;
     padding: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
 
 }
@@ -128,6 +129,7 @@ nav ul.responsive {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .certificate {
@@ -164,6 +166,34 @@ main > h1 {
     font-size: 2.5rem;
     color: #2d5c88;
 }
+
+.filter-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card button {
+    background-color: #2d5c88;
+    color: white;
+    font-weight: bold;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #1e4062;
+}
+
+.card button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(45, 92, 136, 0.4);
+}
+
 
 
 @media (max-width: 768px) {
