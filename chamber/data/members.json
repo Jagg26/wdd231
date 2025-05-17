@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Heladería Coromoto",
+        "address": "Av. 3 Independencia, Mérida 5101",
+        "phone": "+58 274-252-3525",
+        "website": "https://heladeriacoromoto.com",
+        "image": "coromoto.jpg",
+        "membershipLevel": 3,
+        "description": "Famosa por tener el récord Guinness de mayor cantidad de sabores de helado en el mundo."
+      },
+      {
+        "name": "Posada Casa Sol",
+        "address": "Calle 24, entre Av. 3 y 4, Mérida",
+        "phone": "+58 274-263-5851",
+        "website": "https://casasol.com.ve",
+        "image": "casasol.jpg",
+        "membershipLevel": 2,
+        "description": "Posada colonial en el centro histórico de Mérida, ideal para el turismo cultural."
+      },
+      {
+        "name": "Parapente Mérida Tours",
+        "address": "La Culata, vía Los Nevados",
+        "phone": "+58 414-745-2211",
+        "website": "https://parapentemerida.com",
+        "image": "parapente.jpeg",
+        "membershipLevel": 3,
+        "description": "Ofrecen vuelos en parapente desde El Morro, una experiencia inolvidable."
+      },
+      {
+        "name": "Café Andino",
+        "address": "Av. Urdaneta, CC Las Tapias, Mérida",
+        "phone": "+58 274-271-0101",
+        "website": "https://cafeandino.com",
+        "image": "cafeandino.jpg",
+        "membershipLevel": 1,
+        "description": "Café tradicional con sabores andinos y ambiente acogedor."
+      },
+      {
+        "name": "SOVENPFA",
+        "address": "Av. 2 Lora, cerca de la ULA",
+        "phone": "+58 274-252-6842",
+        "website": "https://sovenpfa.com",
+        "image": "sovenpfa.jpeg",
+        "membershipLevel": 2,
+        "description": "Sociedad Venezolana de Protección Familiar"
+      },
+      {
+        "name": "Artesanía Mérida Viva",
+        "address": "Pueblo Llano, carretera Trasandina",
+        "phone": "+58 274-299-8732",
+        "website": "https://meridavivaartesania.com",
+        "image": "artesania.jpg",
+        "membershipLevel": 1,
+        "description": "Productos hechos a mano por artesanos locales: tejidos, cerámicas y más."
+      },
+      {
+        "name": "EcoHotel La Mucuy",
+        "address": "Vía al Parque Sierra Nevada, Tabay",
+        "phone": "+58 274-263-4420",
+        "website": "https://ecohotellamucuy.com",
+        "image": "lamucuy.jpg",
+        "membershipLevel": 3,
+        "description": "Eco alojamiento con vista a la Sierra Nevada y senderos naturales."
+      }
+    ]
+  }
+  

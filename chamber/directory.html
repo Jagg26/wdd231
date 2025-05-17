@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chamber Directory | John Garcia</title>
+  <meta name="description" content="Directory page of the Chamber of Commerce website showcasing member businesses." />
+  <meta name="author" content="John Garcia" />
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  <meta property="og:title" content="Chamber of Commerce Directory">
+  <meta property="og:description" content="Explore our member businesses and connect with the local community in Mérida, Venezuela.">
+  <meta property="og:image" content="https://yourdomain.com/images/social-preview.jpg">
+  <meta property="og:url" content="https://yourdomain.com/directory.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Merida Chamber of Commerce</h1>
+    <nav>
+      <span class="menu-toggle">&#9776;</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Member Directory</h2>
+    <div class="view-buttons">
+      <button id="gridView">Grid View</button>
+      <button id="listView">List View</button>
+    </div>
+    <section id="memberContainer" class="grid-view"></section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> John Garcia - WDD 231</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <!-- JS -->
+  <script src="scripts/script.js" defer></script>
+</body>
+</html>
