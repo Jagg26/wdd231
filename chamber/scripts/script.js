@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   // --- WEATHER SECTION ---
-const apiKey = '3968363cc0b7d19a72278b2bc35ed082'; // ← Reemplazá con tu clave de OpenWeatherMap
+const apiKey = '3968363cc0b7d19a72278b2bc35ed082';
 const city = 'Merida,VE';
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
