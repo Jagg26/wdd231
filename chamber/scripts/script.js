@@ -111,3 +111,51 @@ async function loadSpotlights() {
 
 loadWeather();
 loadSpotlights();
+
+
+//JOIN PAGE 
+    window.addEventListener("DOMContentLoaded", () => {
+      const cards = document.querySelectorAll("#membership-cards .card");
+      cards.forEach((card, index) => {
+        card.style.opacity = 0;
+        card.style.transition = "opacity 1s ease, transform 1s ease";
+        card.style.transform = "translateY(20px)";
+        setTimeout(() => {
+          card.style.opacity = 1;
+          card.style.transform = "translateY(0)";
+        }, 300 * index);
+      });
+    
+      // Modal logic
+      const modals = document.querySelectorAll(".modal");
+      const closeButtons = document.querySelectorAll(".modal .close");
+    
+      document.querySelectorAll(".card a").forEach(link => {
+        link.addEventListener("click", (e) => {
+          e.preventDefault();
+          const modalId = link.getAttribute("href");
+          document.querySelector(modalId).style.display = "block";
+        });
+      });
+    
+      closeButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          modals.forEach(modal => modal.style.display = "none");
+        });
+      });
+    
+      window.addEventListener("click", (e) => {
+        modals.forEach(modal => {
+          if (e.target === modal) {
+            modal.style.display = "none";
+          }
+        });
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("timestamp").value = new Date().toISOString();
+    });
+
+    
+    

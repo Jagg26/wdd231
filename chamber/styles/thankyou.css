@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  .summary p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  footer {
+    background: #2d5c88;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+  }
