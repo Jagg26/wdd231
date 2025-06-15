@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chamber Directory | John Garcia</title>
-  <meta name="description" content="Directory page of the Chamber of Commerce website showcasing member businesses." />
+  <meta name="description" content="Home page of the Chamber of Commerce website showcasing member businesses." />
   <meta name="author" content="John Garcia" />
 
   <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
@@ -25,21 +25,17 @@
     <nav>
       <span class="menu-toggle">&#9776;</span>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Discover</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Member Directory</h1>
-    <div class="view-buttons">
-      <button id="gridView">Grid View</button>
-      <button id="listView">List View</button>
-    </div>
-    <section id="memberContainer" class="grid-view"></section>
+    <aside id="visit-message"></aside>
+    <section class="discover-gallery"></section>
   </main>
 
   <footer>
@@ -63,7 +59,6 @@
       </div>
     </div>
   </footer>
-
-  <script src="scripts/script.js" defer></script>
+  <script src="./scripts/discover.js"></script>
 </body>
 </html>

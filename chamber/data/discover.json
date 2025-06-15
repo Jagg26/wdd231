@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Teleférico Mukumbarí",
+      "address": "Páramo de La Aguada, Mérida, Venezuela",
+      "description": "El teleférico más alto del mundo, conecta Mérida con Pico Espejo atravesando los Andes.",
+      "img": "./images/teleferico.webp"
+    },
+    {
+      "name": "Plaza Bolívar",
+      "address": "Av. Urdaneta, Mérida, Venezuela",
+      "description": "Plaza central rodeada por la Catedral y edificaciones coloniales pintorescas.",
+      "img": "./images/plaza_bolivar.webp"
+    },
+    {
+      "name": "Biblioteca Bolivariana",
+      "address": "Calle 28 con Av. 5, Mérida, Venezuela",
+      "description": "Moderna biblioteca-museo dedicada a la historia y cultura bolivariana local.",
+      "img": "./images/biblioteca_bolivariana.webp"
+    },
+    {
+      "name": "Parque Metropolitano Albarregas",
+      "address": "Av. Andrés Bello, Mérida, Venezuela",
+      "description": "Extenso parque urbano con senderos, zonas verdes y biodiversidad andina.","img": "./images/parque_albarregas.webp"
+    },
+    {
+      "name": "Pico El Águila",
+      "address": "Carretera Transandina, Mérida, Venezuela",
+      "description": "Mirador histórico a 4118 m con monumento al cóndor, parte de la carretera panamericana.","img":"images/pico_el_aguila.webp"
+    },
+    {
+      "name": "Estadio Metropolitano",
+      "address": "Urb. La Mara, Mérida, Venezuela",
+      "description": "Gran estadio de fútbol, sede de Estudiantes de Mérida F.C. y eventos deportivos.",
+      "img":"images/estadio_metropolitano.webp"
+    },
+    {
+      "name": "Museo de Arte Moderno",
+      "address": "Plaza Las Heroínas, Mérida, Venezuela",
+      "description": "Pequeño museo con una colección de arte contemporáneo venezolano.","img":"images/museo_arte_moderno.webp"
+    },
+    {
+      "name": "La Heladería Coromoto",
+      "address": "Calle 29 entre Av. Las Américas, Mérida, Venezuela",
+      "description": "Famosa por sus más de 900 sabores de helado y reconocida por el Guinness.",
+      "img":"images/heladeria_coromoto.webp"
+    }
+  ]
+  
